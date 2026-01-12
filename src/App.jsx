@@ -5,6 +5,19 @@ import HeroSection from './components/HeroSection'
 import { useState, useEffect } from 'react'
 // import { supabase } from './supabaseClient'
 
+// Importar imágenes locales para que Vite las sirva correctamente
+import img0965 from './assets/IMG_0965.jpg'
+import img4308 from './assets/IMG_4308.jpg'
+import img4391 from './assets/IMG_4391.jpg'
+import img4426 from './assets/IMG_4426 2.jpg'
+import img4432 from './assets/IMG_4432.jpg'
+import img4950 from './assets/IMG_4950 2.jpg'
+import img7889 from './assets/IMG_7889.jpg'
+import img8255 from './assets/IMG_8255 2.JPG'
+import img8546 from './assets/IMG_8546.jpg'
+import img8657 from './assets/IMG_8657.jpg'
+import img8662 from './assets/IMG_8662.jpg'
+
 function App() {
   const [selectedPhoto, setSelectedPhoto] = useState(null)
 
@@ -15,67 +28,67 @@ function App() {
       id: 1, 
       title: "Hakuna Cinema", 
       caption: "Recuerdo ese día con mucho gusto, neta me reí mucho y disfruté pasarlo contigo y los chicos.",
-      imageUrl: '/src/assets/IMG_0965.jpg'
+      imageUrl: img0965
     },
     { 
       id: 2, 
       title: "Dream Team", 
       caption: "Óscar, Francisco, Natalia y tú son de lo más bonito que me dió Dios en los tiempos de pastoral, es importante recordar que tú fuiste el pegamento del grupo.",
-      imageUrl: '/src/assets/IMG_4308.jpg'
+      imageUrl: img4308
     },
     { 
       id: 3, 
       title: "Misión Semana Santa", 
       caption: "Aún me parece increíble que después de tantos años, apenas nos fuimos de misiones juntas, pero mejor tarde que nunca.",
-      imageUrl: '/src/assets/IMG_4391.jpg'
+      imageUrl: img4391
     },
     { 
       id: 4, 
       title: "Juntas en todo momento", 
       caption: "Neta se puede ver nuestro cansancio pero también el gozo de servir juntas, es lindo tener el mismo recorrido juntas.",
-      imageUrl: '/src/assets/IMG_4426 2.jpg'
+      imageUrl: img4426
     },
     { 
       id: 5, 
       title: "Lo más valioso", 
       caption: "Lo más valioso de nuestra amistad y nuestra razón de ser, siempre será Dios, por Él y para Él.",
-      imageUrl: '/src/assets/IMG_4432.jpg'
+      imageUrl: img4432
     },
     { 
       id: 6, 
       title: "Rodeo (ajúa)", 
       caption: "¿Recuerdas las ganas quee teníamos de ir al rodeo juntas?  pues se CUMPLIÓ, comer chamorro juntas me hizo dar cuenta del momentazo que vivimos.",
-      imageUrl: '/src/assets/IMG_4950 2.jpg'
+      imageUrl: img4950
     },
     { 
       id: 7, 
       title: "En los momentos correctos", 
       caption: "Amiga aunque hay veces que no nos podamos ver, cada que estés aquí representa un curita al corazón.",
-      imageUrl: '/src/assets/IMG_7889.jpg'
+      imageUrl: img7889
     },
     { 
       id: 8, 
       title: "Que nunca falten las risas", 
       caption: "Eres muy auténtica y con el corazón más enomre que he conocido.",
-      imageUrl: '/src/assets/IMG_8255 2.JPG'
+      imageUrl: img8255
     },
     { 
       id: 9, 
       title: "Docenario", 
       caption: "Nai, sabes cuanto amo el docenario, y verte esas fechas fue de los mejores regalos de Navidad que God me pudo dar.",
-      imageUrl: '/src/assets/IMG_8546.jpg'
+      imageUrl: img8546
     },
     { 
       id: 10, 
       title: "Tu día especial", 
       caption: "Tu graduación fue de los highlights del año. ¿Cómo es posible que tenemos tanto de conocernos? Lo más importante es que nos hemos apoyado estos años como pequeñas foráneas a adultas independientes.",
-      imageUrl: '/src/assets/IMG_8657.jpg'
+      imageUrl: img8657
     },
     { 
       id: 11, 
       title: "Siempre brilla", 
       caption: "Que nada y nadie apague dentro de ti tu amor, convicción, inteligencia, empatía, humor y a Dios. Eres única e irremplazable. Te quiero amiga -Atte. GabyMtz",
-      imageUrl: '/src/assets/IMG_8662.jpg'
+      imageUrl: img8662
     }
   ]
 
